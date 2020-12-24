@@ -195,4 +195,8 @@ main {
     overflow: hidden;
     text-overflow: clip;
   }
+
+  .brand-text {
+    max-width: 400px;
+  }
 }
