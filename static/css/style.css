@@ -42,9 +42,10 @@ main {
   background-color: var(--bg-primary);
   transition: width 200ms ease-in;
   overflow: scroll;
+  z-index: 1000;
 }
 
-.navbar::-webkit-scrollbar{
+.navbar::-webkit-scrollbar {
   display: none;
 }
 
@@ -105,6 +106,24 @@ main {
   transform: rotate(-180deg);
 }
 
+/* 主頁面內容 */
+.home-bg {
+  padding: 0px !important;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(static/images/home_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.brand-text {
+  font-size: calc(1.9rem + 7vw);
+  font-weight: 900;
+  color: white;
+  padding-top: calc(1rem + 1.5vw);
+}
+
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
@@ -120,12 +139,13 @@ main {
     flex-direction: row !important;
   }
 
-  .navbar {
-    justify-content: space-evenly !important;
-  }
-
   main {
     margin: 0;
+  }
+
+  .home-bg {
+    height: 45vh;
+    background-position: left;
   }
 }
 
