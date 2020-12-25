@@ -37,6 +37,10 @@ main {
   padding: 1rem;
 }
 
+footer {
+  margin-left: 5rem;
+}
+
 .navbar {
   position: fixed !important;
   background-color: var(--bg-primary);
@@ -123,6 +127,12 @@ main {
   color: white;
 }
 
+.team-card-img {
+  height: 10rem;
+  width: 10rem;
+  margin: auto;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
@@ -140,6 +150,10 @@ main {
 
   main {
     margin: 0;
+  }
+
+  footer {
+    display: none;
   }
 
   .home-bg {
