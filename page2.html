@@ -1,97 +1,145 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>硬體筆記</title>
-    <!-- 網頁圖示 -->
-    <link
-      rel="Shortcut Icon"
-      type="image/x-icon"
-      href="./static/images/nut.svg"
-    />
-    <link href="./static/css/style.css" rel="stylesheet" type="text/css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body ondragstart="return false;">
-    <!-- 側邊導航欄 開始 -->
-    <nav class="navbar">
-      <ul class="navbar-nav">
-        <li class="logo">
-          <a class="nav-link">
-            <span class="logo-text">硬體筆記</span>
-            <img src="https://img.icons8.com/fluent/48/000000/forward.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>硬體筆記</title>
+  <!-- 網頁圖示 -->
+  <link rel="Shortcut Icon" type="image/x-icon" href="./static/images/nut.svg" />
+  <link href="./static/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body ondragstart="return false;">
+  <!-- 側邊導航欄 開始 -->
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a class="nav-link">
+          <span class="logo-text">硬體筆記</span>
+          <img src="https://img.icons8.com/fluent/48/000000/forward.png" />
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="." class="nav-link">
+          <img src="https://img.icons8.com/fluent/48/000000/home.png" />
+          <span class="link-text">首頁</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="./page1.html" class="nav-link">
+          <img src="https://img.icons8.com/fluent/48/000000/processor.png" />
+          <span class="link-text">處理器&nbsp; · &nbsp;主機板</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="./page2.html" class="nav-link">
+          <img src="https://img.icons8.com/fluent/48/000000/video-card.png" />
+          <span class="link-text">顯示卡&nbsp; · &nbsp;螢幕</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="./page3.html" class="nav-link">
+          <img src="https://img.icons8.com/fluent/48/000000/ssd.png" />
+          <span class="link-text">硬碟&nbsp; · &nbsp;記憶體</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="./page4.html" class="nav-link">
+          <img src="https://img.icons8.com/fluent/48/000000/workstation.png" />
+          <span class="link-text">
+            機殼&nbsp; · &nbsp;散熱&nbsp; · &nbsp;電供
+          </span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="./page5.html" class="nav-link">
+          <img src="https://img.icons8.com/fluent/48/000000/guest-male.png" />
+          <span class="link-text">關於作者</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- 側邊導航欄 結束 -->
+
+  <!-- 內容 開始 -->
+  <main>
+    <!-- 標題卡 -->
+    <div class="jumpotron text-center bg-dark text-light">
+      <div class="col-md-5 p-lg-5 mx-auto">
+        <h1>顯示卡、螢幕</h1>
+        <p>VIDEO CARD&emsp;&&emsp;MONITOR</p>
+      </div>
+    </div>
+
+  </main>
+  <!-- 內容 結束 -->
+
+  <!-- 頁尾 開始 -->
+  <footer class="footer mt-auto bg-dark">
+    <div class="p-0 m-0">
+      <div class="row m-0 text-light">
+        <div class="container col-lg-3 p-3" style="background-color: #fe3e89">
+          <h5><strong>Copyright</strong></h5>
+          <p>
+            2020. All rights rese-rved. Those icons used in this website is
+            mostly from icon8.com, providing tons of free icon.
+          </p>
+        </div>
+        <div class="container col-lg-3 p-3" style="background-color: #b656cb">
+          <h5><strong>硬體筆記</strong></h5>
+          <ul>
+            <li><a class="text-light" href="./index.html">首頁</a></li>
+            <li>
+              <a class="text-light" href="./page1.html">處理器、主機板</a>
+            </li>
+            <li>
+              <a class="text-light" href="./page2.html">顯示卡、螢幕</a>
+            </li>
+            <li>
+              <a class="text-light" href="./page3.html">硬碟、記憶體</a>
+            </li>
+            <li>
+              <a class="text-light" href="./page4.html">機殼、散熱、電供</a>
+            </li>
+            <li><a class="text-light" href="./page5.html">關於作者</a></li>
+          </ul>
+        </div>
+        <div class="container col-lg-3 p-3" style="background-color: #3a4e93">
+          <div class="row">
+            <img style="height: 2rem; width: auto;" src="./static/images/nuk_logo.jpg" />
+            <h5 class="mt-3"><strong>國立高雄大學 通識教育中心</strong></h5>
+            <p>SCA794Y&nbsp;109-1&nbsp;網頁設計與管理&nbsp;&nbsp;期末專題</p>
+            <p>指導教授：趙志宏 教授</p>
+          </div>
+        </div>
+        <div class="container col-lg-3 p-3" style="background-color: #5994ce">
+          <a href="https://github.com/JiaxuanTW/Web-Design-Project-2020-Fall"><img
+              src="https://img.icons8.com/fluent/34/000000/github.png" />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="." class="nav-link">
-            <img src="https://img.icons8.com/fluent/48/000000/home.png" />
-            <span class="link-text">首頁</span>
-          </a>
-        </li>
+          <p class="mb-0 mt-3">
+            Made with ❤️ by us. You can find the source code there at GitHub.
+            Give a star if you want. Hope you like it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- 頁尾 結束 -->
 
-        <li class="nav-item">
-          <a href="./page1.html" class="nav-link">
-            <img src="https://img.icons8.com/fluent/48/000000/processor.png" />
-            <span class="link-text">處理器&nbsp; · &nbsp;主機板</span>
-          </a>
-        </li>
+  <!-- Bootstrap v5 文件 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
 
-        <li class="nav-item">
-          <a href="./page2.html" class="nav-link">
-            <img src="https://img.icons8.com/fluent/48/000000/video-card.png" />
-            <span class="link-text">顯示卡&nbsp; · &nbsp;螢幕</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="./page3.html" class="nav-link">
-            <img src="https://img.icons8.com/fluent/48/000000/ssd.png" />
-            <span class="link-text">硬碟&nbsp; · &nbsp;記憶體</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="./page4.html" class="nav-link">
-            <img
-              src="https://img.icons8.com/fluent/48/000000/workstation.png"
-            />
-            <span class="link-text">
-              機殼&nbsp; · &nbsp;散熱&nbsp; · &nbsp;電供
-            </span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="./page5.html" class="nav-link">
-            <img src="https://img.icons8.com/fluent/48/000000/guest-male.png" />
-            <span class="link-text">關於作者</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <!-- 側邊導航欄 結束 -->
-
-    <!-- 內容 開始 -->
-    <main></main>
-    <!-- 內容 結束 -->
-
-    <!-- Bootstrap v5 文件 -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>

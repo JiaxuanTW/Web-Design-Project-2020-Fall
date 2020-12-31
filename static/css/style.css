@@ -34,7 +34,6 @@ body::-webkit-scrollbar-thumb {
 
 main {
   margin-left: 5rem;
-  padding: 1rem;
 }
 
 footer {
@@ -115,7 +114,7 @@ footer {
   padding: 0px !important;
   width: 100vw;
   height: 100vh;
-  background-image: url(https://github.com/JiaxuanTW/Web-Design-Project-2020-Fall/blob/main/static/images/home_bg.jpg?raw=true);
+  background-image: url(../images/home_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -131,6 +130,13 @@ footer {
   height: 10rem;
   width: 10rem;
   margin: auto;
+}
+
+.jumpotron {
+  padding: 3rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 600px) {
@@ -150,6 +156,7 @@ footer {
 
   main {
     margin: 0;
+    padding-bottom: 5rem;
   }
 
   footer {
