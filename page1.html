@@ -83,23 +83,78 @@
 
     <div class="container">
       <div class="row">
+        <div class="col-lg-4 p-3 p-lg-5">
+          <img src="./static/images/cpu.webp" class="responsive my-5" style="border-radius: 15px;">
+          <p>CPU，電腦中央處理單元，負責運算邏輯、協調電腦中的各個元件，相當於電腦的大腦。</p>
+          <p>要判斷一顆 CPU 的效能可以從三項指標來看：<strong>核心數量</strong>、
+            <strong>執行序數量</strong>、<strong>時脈</strong>
+          </p>
+        </div>
+        <div class="col-lg-4 p-3 p-lg-5">
+          <img src="./static/images/intel_cpu.jpg" class="responsive my-3" border="1">
+          <strong>效能級距</strong>：在第幾代數上沒差太多的時候 I9 > I7 > I5 > I3<br>
+          <strong>代次</strong>：代表產品的推出前後<br>
+          <strong>效能分數</strong>：越大越好<br>
+          <strong>細節分類</strong>：用來細分同樣型號下的分類，K 可超頻、H 使用較好內顯、Q 四核心、X 效能極強、
+          F 無內顯、U 低功耗、S 電源優化省電、H 高效能（筆電）<br>
+        </div>
+        <div class="col-lg-4 p-3 p-lg-5">
+          <img src="./static/images/amd_cpu.jpg" class="responsive my-3" border="1">
+          <strong>效能級距</strong>：在第幾代數上沒差太多的時候 R9 > R7 > R5 > R3<br>
+          <strong>代次</strong>：代表產品的推出前後<br>
+          <strong>效能分數</strong>：越大越好<br>
+          <strong>細節分類</strong>：用來細分同樣型號下的分類，X 代表有自動超頻、G 代表有內顯<br><br>
+          * 除了 Althlon 系列，AMD 的處理器皆可超頻<br>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 p-3 p-lg-5">
+          <h2 class="mt-3 mb-3"><strong>處理器選購指南</strong></h2>
+          <ul>
+            <li>不管是哪個廠牌 CPU 隨著每代更替，每代的腳位都不同，而不同腳位無法混用，因此須注意主機板上的腳位</li>
+            <li>CPU 的 TDP 為其限定之最大發熱量，並不是它的功耗</li>
+            <li>CPU 在越熱的環境下，會導致它性能下降</li>
+            <li>超頻雖然可能會導致 CPU 壽命減短，但 CPU 的耐用度事實上非常高</li>
+            <li>I7 或 R7 以上的 CPU 最好使用塔散以上等級的散熱方案</li>
+            <li>散熱膏必須抹的均勻，也不宜擠太多</li>
+          </ul>
+        </div>
+        <div class="col-md-6 p-3 p-lg-5">
+          <h2 class="mt-3 mb-3"><strong>超頻？</strong></h2>
+          <p>讓 CPU 穩定的在超出基礎頻率的狀態下運行</p>
+          <h2 class="mt-5 mb-3"><strong>Turbo Boost？</strong></h2>
+          <p>
+            Intel 所開發給 CPU 的技術，在溫度和電流在規定範圍內時，允許某些核心超出基頻
+            AMD 也有相似的技術稱作 Turbo Core
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-5">
+      <hr>
+    </div>
+
+    <div class="container">
+      <div class="row">
         <div class="col-lg-7 p-3 p-lg-5">
           <div class="bg-light text-center" style="border-radius: 15px;">
             <img src="./static/images/motherboard1.png" style="width: 60%;" class="responsive">
           </div>
         </div>
         <div class="col-lg-5 p-3 p-lg-5">
-          <h4 class="text-content">
+          <h5>
             主機板是很重要的電腦中樞，它連接了電腦所有的零件，更是決定了一台電腦的絕對上限，
             有沒有良好的擴充性，能不能超頻，主機板說了算，總而言之，主機板是電腦的中樞地帶。
-          </h4>
+          </h5>
         </div>
       </div>
 
       <div class="row">
         <div class="col-lg-6 p-3 p-lg-5">
           <div class="bg-light text-center" style="border-radius: 15px;">
-            <img src="./static/images/motherboard1.png" style="width: 100%;" class="responsive">
+            <img src="./static/images/motherboard_intro.png" style="border-radius: 15px;" class="responsive">
           </div>
         </div>
         <div class="col-lg-6 p-3 p-lg-5">
@@ -110,11 +165,11 @@
               </div>
             </div>
             <div class="col-lg-5">
-              <h5 class="text-content">有些主機板上有提供 RGB 或 ARGB 接口，並且可以透過軟體控制燈光，但兩種在主機板上的接口不同不能混插。</h5>
+              <p>有些主機板上有提供 RGB 或 ARGB 接口，並且可以透過軟體控制燈光，但兩種在主機板上的接口不同不能混插。</p>
             </div>
           </div>
-          <h2 class="mt-3 mb-3">主機板安裝指南</h2>
-          <ul style="font-size: 1.2rem;">
+          <h2 class="mt-3 mb-3"><strong>主機板選購指南</strong></h2>
+          <ul>
             <li>一般價位大概在 2500 上下</li>
             <li>擴充性越好的主機板越貴</li>
             <li>好的主機板才能超頻否則可能會造成不可逆的後果，實際以官網規範為主</li>
@@ -125,8 +180,6 @@
           </ul>
         </div>
       </div>
-
-
     </div>
   </main>
   <!-- 內容 結束 -->
