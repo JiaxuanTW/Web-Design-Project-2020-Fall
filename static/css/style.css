@@ -162,6 +162,32 @@ footer {
   height: auto;
 }
 
+.cate-cover {
+  height: 20rem;
+}
+
+.cate-img {
+  -webkit-filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
+  width: 35%;
+  right: 1vw;
+  z-index: 1;
+}
+
+.cate-container {
+  bottom: 0;
+  left: 0;
+  height: 15rem;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px rgb(0, 0, 0, 0.1);
+  transition: 600ms;
+}
+
+.cate-container:hover {
+  background-color: white;
+  box-shadow: 5px 5px 25px rgb(0, 0, 0, 0.2);
+}
+
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
@@ -189,6 +215,14 @@ footer {
   .home-bg {
     height: 45vh;
     background-position: left;
+  }
+
+  .cate-cover {
+    height: 13rem;
+  }
+
+  .cate-container {
+    height: 10rem;
   }
 }
 
