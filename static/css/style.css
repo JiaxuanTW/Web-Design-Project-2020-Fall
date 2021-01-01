@@ -147,11 +147,19 @@ footer {
     right bottom,
     left top,
     color-stop(0.8, #fe3e89),
-    color-stop(0.6, #b656cb),
-    color-stop(0.4, #3a4e93),
+    color-stop(0.5, #b656cb),
     color-stop(0.2, #5994ce)
   );
   padding: 6px;
+}
+
+.text-content {
+  line-height: 2rem;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 600px) {
