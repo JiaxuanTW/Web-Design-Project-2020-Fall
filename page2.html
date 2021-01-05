@@ -87,24 +87,25 @@
           <img src="./static/images/videocard.jpg" class="responsive my-5">
           <p>作為電腦的輸出，顯示卡是用來控制螢幕顯示甚麼的，把電腦的資訊都輸出到螢幕上，因此可以用來繪圖以及玩遊戲，以及達成任何視覺介面</p>
         </div>
-        <div class="col-lg-4 p-3 p-lg-5" >
+        <div class="col-lg-4 p-3 p-lg-5">
           <img src="./static/images/nvidia_gpu.jpg" class="responsive my-3" border="1">
-          <strong>產品定位</strong>:GT是非常入門的型號 GTX通常是桌機用或好一點的筆電 MX是筆電專用 RTX表示GTX進階版支援光線追蹤(RT CORE)以及深度學習(TENSOR CORE)<br> 
-          <strong>第幾系列</strong>:數字越大代表越後面推出以及效能更好<br> 
-          <strong>效能分數</strong>:分數越大在同系列越好<br>  
-          <strong>細項分類</strong>:在同一個型號下的分類，沒有級代表為一般版,其他常見的還有SUPER(效能介於TI與一般版)，OC(比一般版好一點,因為有超頻),GAMING(通常為有RGB的版本)<br>  
+          <strong>產品定位</strong>:GT是非常入門的型號 GTX通常是桌機用或好一點的筆電 MX是筆電專用 RTX表示GTX進階版支援光線追蹤(RT CORE)以及深度學習(TENSOR CORE)<br>
+          <strong>第幾系列</strong>:數字越大代表越後面推出以及效能更好<br>
+          <strong>效能分數</strong>:分數越大在同系列越好<br>
+          <strong>細項分類</strong>:在同一個型號下的分類，沒有級代表為一般版,其他常見的還有SUPER(效能介於TI與一般版)，OC(比一般版好一點,因為有超頻),GAMING(通常為有RGB的版本)<br>
         </div>
         <div class="col-lg-4 p-3 p-lg-5">
           <img src="./static/images/amd_gpu.jpg" class="responsive my-3" border="1">
-          <strong>產品系列</strong>:Radeon RX為AMD的遊戲顯卡系列<br>  
-          <strong>第幾代</strong>:越大代表越後面出<br> 
-          <strong>效能分數</strong>:越大代表效能越好<br>  
-          <strong>細節分類</strong>:XT代表增強版, GAMING(通常為有RGB的版本)<br> 
-        </div>
+          <strong>產品系列</strong>:Radeon RX為AMD的遊戲顯卡系列<br>
+          <strong>第幾代</strong>:越大代表越後面出<br>
+          <strong>效能分數</strong>:越大代表效能越好<br>
+          <strong>細節分類</strong>:XT代表增強版, GAMING(通常為有RGB的版本)<br>
         </div>
       </div>
+    </div>
+    <div class="container">
       <div class="row">
-        <div class="col-lg-4 p-3 p-lg-5">
+        <div class="col-lg-4 p-3 p-lg-4">
           <h2 class="mt-3 mb-3"><strong>內顯VS獨顯</strong></h2>
           <ul>
             <li>內顯是在CPU內部的，無法被獨立分開，而獨顯是獨立顯示卡</li>
@@ -120,7 +121,7 @@
             <li>繪圖顯卡通常更貴</li>
           </ul>
         </div>
-        <div class="col-lg-4 p-3 p-lg-5">
+        <div class="col-lg-4 p-3 p-lg-4">
           <h2 class="mt-3 mb-3"><strong>影片成像與FPS</strong></h2>
           <img src="./static/images/fps.gif" class="responsive my-5">
           <ul>
@@ -129,8 +130,7 @@
             <li>100hz以上大概就無法感受到差異了</li>
           </ul>
         </div>
-
-        <div class="col-lg-4 p-3 p-lg-5">
+        <div class="col-lg-4 p-3 p-lg-4">
           <h2 class="mt-3 mb-3"><strong>顯示卡安裝指南</strong></h2>
           <ul>
             <li>不管是DDR5還是DDR6的顯卡都是使用PCIE 3.0x16 插槽，且不管是多舊多新的主機版都可兼容</li>
@@ -142,13 +142,16 @@
             <li>想要了解更多顯卡比較可以查看<a href="https://www.mydrivers.com/zhuanti/tianti/gpu/index.html">顯卡天梯</a></li>
           </ul>
         </div>
-
-        
       </div>
     </div>
-     <div class="container px-5">
-      <hr>
+
+
+    <div class="container px-5">
+      <strong>
+        <hr>
+      </strong>
     </div>
+
     <div class="container">
       <div class="row">
         <div class="col-lg-4 p-3 p-lg-5">
@@ -188,7 +191,7 @@
           </ul>
         </div>
         <div class="col-lg-4 p-3 p-lg-5">
-          <img src="./static/images/io.png" class="responsive my-5" >
+          <img src="./static/images/io.png" class="responsive my-5">
         </div>
       </div>
 
@@ -220,19 +223,22 @@
       <div class="row">
         <div class="col-lg-4 p-3 p-lg-5">
           <h2 class="mt-3 mb-3"><strong>G-Sync</strong></h2>
-          <p>直接在螢幕中多加了一個晶片，這顆晶片內建了緩衝記憶體，負責和NVIDIA GeForce顯示卡溝通，G-Sync晶片從顯示卡讀取最新的畫面張數，依據不同顯示卡的效能等級，自動調整螢幕刷新率時間，以同步配合顯示卡的畫面輸出，只要螢幕刷新率有支援，從0到240Hz都能即時動態調整</p>
+          <p>直接在螢幕中多加了一個晶片，這顆晶片內建了緩衝記憶體，負責和NVIDIA
+            GeForce顯示卡溝通，G-Sync晶片從顯示卡讀取最新的畫面張數，依據不同顯示卡的效能等級，自動調整螢幕刷新率時間，以同步配合顯示卡的畫面輸出，只要螢幕刷新率有支援，從0到240Hz都能即時動態調整</p>
         </div>
         <div class="col-lg-4 p-3 p-lg-5">
           <h2 class="mt-3 mb-3"><strong>FreeSync</strong></h2>
-          <p>不同於NVIDIA G-Sync需要獨立晶片的做法，FreeSync則是從連結介面的標準下手，整合DisplayPort Adaptive-Sync業界標準，可即時透過DisplayPort介面調整螢幕的刷新率，而目前最新HDMI介面的規格也可支援FreeSync。雖然不用在螢幕中多加晶片，FreeSync同步技術還需要搭配相容的DisplayPort或HDMI版本的螢幕及Radeon顯示卡。</p>
+          <p>不同於NVIDIA G-Sync需要獨立晶片的做法，FreeSync則是從連結介面的標準下手，整合DisplayPort
+            Adaptive-Sync業界標準，可即時透過DisplayPort介面調整螢幕的刷新率，而目前最新HDMI介面的規格也可支援FreeSync。雖然不用在螢幕中多加晶片，FreeSync同步技術還需要搭配相容的DisplayPort或HDMI版本的螢幕及Radeon顯示卡。
+          </p>
         </div>
         <div class="col-lg-4 p-3 p-lg-5">
           <h2 class="mt-3 mb-3"><strong>螢幕選購指南</strong></h2>
-            <ul>
-              <li>如要玩遊戲，應注意顯卡等級再挑選適合螢幕</li>
-              <li>不建議太小的螢幕使用曲面，應至少２８吋以上在選擇曲面</li>
-              <li>選購標示清楚的螢幕</li>
-            </ul>
+          <ul>
+            <li>如要玩遊戲，應注意顯卡等級再挑選適合螢幕</li>
+            <li>不建議太小的螢幕使用曲面，應至少２８吋以上在選擇曲面</li>
+            <li>選購標示清楚的螢幕</li>
+          </ul>
         </div>
       </div>
     </div>
