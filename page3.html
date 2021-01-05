@@ -74,13 +74,130 @@
   <!-- 內容 開始 -->
   <main>
     <!-- 標題卡 -->
-    <div class="jumpotron text-center bg-dark text-light">
+    <div class="jumpotron text-center bg-dark text-light mb-4">
       <div class="col-md-5 p-lg-5 mx-auto">
         <h1>硬碟、記憶體</h1>
         <p>HARD DRIVE&emsp;&&emsp;MEMORY</p>
       </div>
     </div>
+    <!-- Starting from here -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 p-3 p-lg-5">
+          <img src="./static/images/harddrive.jpg" class="responsive my-3" border="1">
+          <h2 class="mt-3 mb-3"><strong>Hard Drive - 硬碟</strong></h2>
+          <p>硬碟，ROM，是用來儲存大量的資料。</p>
+          <p>不同於RAM關機後會失去內部資料<strong>(揮發性 - volatile)</strong>,硬碟(ROM)在電腦關機後仍保存資料<strong>(非揮發性 - non-volatile)</strong></p>
+          <p>硬碟大概分為固態硬碟(Solid State Drive - SSD)以及傳統硬碟(Hard Disk Drive - HDD)。其特性可以用<strong>壽命</strong>、<strong>讀取速度</strong>、<strong>損壞後的救援難度</strong></p> 
 
+        </div>
+        <div class="col-lg-4 p-3 p-lg-5">
+          <img src="./static/images/hdd.png" class="responsive my-3" border="1">
+          <h3><strong>傳統硬碟(Hard Disk Drive - HDD)</strong></h3>
+          <strong>壽命</strong>：通常使用很久<br>
+          <strong>讀取速度</strong>：比較慢(100MB/s)<br>
+          <strong>損壞後的救援難度</strong>：較容易<br>
+          <strong>其他</strong>：比較怕震動及撞擊<br>
+        </div>
+        <div class="col-lg-4 p-3 p-lg-5">
+          <img src="./static/images/ssd.png" class="responsive my-3" border="1">
+          <h3><strong>固態硬碟(Solid State Drive - SSD)</strong></h3>
+          <strong>壽命</strong>：比較短<br>
+          <strong>讀取速度</strong>：較快(500MB/s)<br>
+          <strong>損壞後的救援難度</strong>：較難<br>
+          <strong>其他</strong>：分類: SLC、MLC、TLC。<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp有多種常見接口:SATA、M.2。
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 p-3 p-lg-5">
+          <h2 class="mt-3 mb-3"><strong>硬碟安裝指南</strong></h2>
+          <ul>
+            <li>SSD必須注意它採用的接口</li>
+            <li>一般最好的電腦硬碟配置都是SSD+HDD
+              <ul>
+                <li>SSD用來裝系統與常大量讀取程式(遊戲或繪圖)</li>
+                <li>HDD用來裝珍貴資料</li>
+              </ul>
+            </li>
+            <li>如果有SATA3.0應優先使用</li>
+          </ul>
+          <img src="./static/images/harddrive_install.jpg" class="responsive my-3 col-lg-6" border="1">
+        </div>
+        <div class="col-md-6 p-3 p-lg-5">
+          <h2 class="mt-3 mb-3"><strong>3D NAND？</strong></h2>
+          <p>3D NAND 是一種硬碟製造用到的堆疊技術。他可以讓單一記憶體單元容納更多位元</p>
+          <h2 class="mt-5 mb-3"><strong>SSHD？</strong></h2>
+          <p>
+            混合式硬碟Solid state hybrid drive (即混合SSD+HDD)的優點是雖然寫入和讀取的速度還是不比SSD的速度，但是相比HDD會更快快， 價格也只比HDD貴了一點
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-5">
+      <hr>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 p-3 p-lg-5 text-center">
+          <h4 class="mt-3 mb-3"><strong>記憶體 - Memory</strong></h4>
+          <p>
+            當cpu要處理程序時,必須大量及快速存取。但即使是固態硬碟SSD的速度也不夠快,因此記憶體便擔任了這個角色。記憶體會先把需要的資料從硬碟加載，再提供給cpu快速讀取。
+          </p>
+          <div class="bg-light text-center" style="border-radius: 15px;">
+            <img src="./static/images/memory.png" style="width: 60%;" class="responsive">
+            
+          </div>
+        </div>
+      
+        <div class="col-lg-6 p-3 p-lg-5">
+          <div class="bg-light text-center" style="border-radius: 15px;">
+            <img src="./static/images/memory2.png" style="border-radius: 15px;" class="responsive">
+            <h3><strong>單通道</strong>、<strong>雙通道</strong>以及<strong>多通道</strong></h3>
+            <br>
+            <p>其實把他想成馬路就可以了。如果一條馬路只有一個通道給10輛車行駛，那就很容易塞車。但是如果有4個通道給10輛車行駛，那麼就不會那麼擁擠了。</p>
+          </div>
+        </div>
+        <div class="col-lg-6 p-3 p-lg-5">
+          <div class="row">
+            <div class="col-lg-9">
+              <div class="text-center" style="border-radius: 15px;">
+                <img src="./static/images/memory3.png" class="responsive mb-4 text-center" style="border-radius: 15px;">
+              </div>
+            </div>
+          </div>
+          <h2 class="mt-3 mb-3"><strong>記憶體安裝指南</strong></h2>
+          <ul>
+            <li>組雙通道需要同樣頻率的記憶體,但不一定為同容量,此外最好用同品牌的組雙通道</li>
+            <li>頻率越高越好,但是須注意cpu和主機板是否支援,否則會降頻到它們最高的支援頻率</li>
+            <li>每個主機板所支援的總共RAM容量上限也會不同</li>
+            <li>文書機4~8GB就夠用 遊戲機8~16GB就夠用 繪圖機可以用到16~32GB32位元作業系統只支援4GB</li>
+            <li>筆電的記憶體跟桌機的記憶體無法混用</li>
+            <li>一般新手也可以容易安裝,上面有防呆插槽,只要先搞清楚是DDR3還是DDR4的</li>
+          </ul>
+        </div>
+        <div class="col-lg-5 p-3 p-lg-5">
+          <h4 class="mt-3 mb-3 text-center"><strong>DDR3 & DDR4</strong></h4>
+          <ul>
+            <li>DDR - Double Data Rate</li> 
+            <li>DDR'3' - 3rd Generation</li>
+            <li>DDR'4' - 4th Generation</li>
+            <li>DDR3 常見的兩種頻率: 1333 1600</li>
+            <li>DDR4 常見的兩種頻率: 2133 2400 2666 3000 3200 3600</li>
+            <li>頻率越高，速度越快</li>
+          </ul>
+          <br>
+          <div class="bg-light text-center" style="border-radius: 15px;">
+            <img src="./static/images/ddr1234.jpg" style="width: 60%;" class="responsive">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- To here -->
 
   </main>
   <!-- 內容 結束 -->
